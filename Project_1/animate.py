@@ -9,9 +9,17 @@ def welcomeMessage(name):
       sys.stdout.flush()
       time.sleep(0.2)
 
+def goodbyeMessage(name):  
+    g = "G O O D B Y E . . . " + " ".join(name).upper() + " !\n"
+
+    for i in g:
+      sys.stdout.write(i)
+      sys.stdout.flush()
+      time.sleep(0.2)
+
 def mathMessage():
 
-    m = "GENIUS - LET'S DO SOME MATH 📝 🔢 ✖️ 📐 🥇 . . . \n"
+    m = "LET'S DO SOME MATH 📝 🔢 ✖️ 📐 🥇 . . . \n"
 
     for i in m:
       sys.stdout.write(i)
@@ -20,9 +28,18 @@ def mathMessage():
 
 def movieMessage():
 
-    mo = "MOVIE LOVER - LET'S SEE HOW MUCH MOVIE KNOWLEDGE DO YOU HAVE 🍿 👀 📽 . . . \n"
+    mo = "LET'S SEE HOW MUCH MOVIE KNOWLEDGE DO YOU HAVE 🍿 👀 📽 . . . \n"
 
     for i in mo:
+      sys.stdout.write(i)
+      sys.stdout.flush()
+      time.sleep(0.1)
+
+def iqMessage():
+
+    iq = "LET'S TEST YOUR I.Q. 👨‍💻 . . . \n"
+
+    for i in iq:
       sys.stdout.write(i)
       sys.stdout.flush()
       time.sleep(0.1)

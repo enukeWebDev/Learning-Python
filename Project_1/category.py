@@ -1,5 +1,6 @@
 from categories.math_q import *
 from categories.movie_q import *
+from categories.iq_q import *
 from animate import *
 
 def chooseCategory():
@@ -13,4 +14,8 @@ def chooseCategory():
     elif category == "movie":
       movieMessage()
       movie_quiz()
+
+    elif category == "iq":
+      iqMessage()
+      iq_quiz()
         

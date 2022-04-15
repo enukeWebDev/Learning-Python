@@ -10,6 +10,7 @@ def main():
     categoryList = ["Math", "Movie", "IQ"]
 
     if userChoice != "yes":
+      goodbyeMessage(user)
       exit()
 
     else:
