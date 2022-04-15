@@ -1,5 +1,5 @@
-from math_q import *
-from movie_q import *
+from categories.math_q import *
+from categories.movie_q import *
 from animate import *
 
 def chooseCategory():
