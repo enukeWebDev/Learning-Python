@@ -19,7 +19,7 @@ def goodbyeMessage(name):
 
 def mathMessage():
 
-    m = "LET'S DO SOME MATH 📝 🔢 ✖️ 📐 🥇 . . . \n"
+    m = "\nLET'S LEARN JAVASCRIPT . . . \n"
 
     for i in m:
       sys.stdout.write(i)
@@ -28,7 +28,7 @@ def mathMessage():
 
 def movieMessage():
 
-    mo = "LET'S SEE HOW MUCH MOVIE KNOWLEDGE DO YOU HAVE 🍿 👀 📽 . . . \n"
+    mo = "\nLET'S SEE HOW MUCH MOVIE KNOWLEDGE DO YOU HAVE 🍿 👀 📽 . . . \n"
 
     for i in mo:
       sys.stdout.write(i)
@@ -37,7 +37,7 @@ def movieMessage():
 
 def iqMessage():
 
-    iq = "LET'S TEST YOUR I.Q. 👨‍💻 . . . \n"
+    iq = "\nLET'S TEST YOUR I.Q. 👨‍💻 . . . \n"
 
     for i in iq:
       sys.stdout.write(i)

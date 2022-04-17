@@ -1,4 +1,4 @@
-from categories.math_q import *
+from categories.javascript import *
 from categories.movie_q import *
 from categories.iq_q import *
 from animate import *
@@ -7,9 +7,9 @@ def chooseCategory():
 
     category = input("Please choose a category - ").lower()
 
-    if category == "math":
+    if category == "javascript":
       mathMessage()
-      math_quiz()
+      js_quiz()
     
     elif category == "movie":
       movieMessage()
@@ -18,4 +18,4 @@ def chooseCategory():
     elif category == "iq":
       iqMessage()
       iq_quiz()
-        
+    
