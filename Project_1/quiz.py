@@ -7,7 +7,7 @@ def main():
     welcomeMessage(user)
 
     userChoice = input("Do you want to have fun? ").lower()
-    categoryList = ["Javascript", "React", "Python"]
+    categoryList = ["Javascript", "Python", "React"]
 
     if userChoice != "yes":
       goodbyeMessage(user)

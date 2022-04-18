@@ -17,7 +17,7 @@ def goodbyeMessage(name):
       sys.stdout.flush()
       time.sleep(0.2)
 
-def mathMessage():
+def jsMessage():
 
     m = "\nLET'S LEARN JAVASCRIPT . . . \n"
 
@@ -26,18 +26,18 @@ def mathMessage():
       sys.stdout.flush()
       time.sleep(0.1)
 
-def movieMessage():
+def pythonMessage():
 
-    mo = "\nLET'S SEE HOW MUCH MOVIE KNOWLEDGE DO YOU HAVE 🍿 👀 📽 . . . \n"
+    mo = "\nLET'S LEARN PYTHON . . . \n"
 
     for i in mo:
       sys.stdout.write(i)
       sys.stdout.flush()
       time.sleep(0.1)
 
-def iqMessage():
+def reactMessage():
 
-    iq = "\nLET'S TEST YOUR I.Q. 👨‍💻 . . . \n"
+    iq = "\nLET'S LEARN REACT . . . \n"
 
     for i in iq:
       sys.stdout.write(i)

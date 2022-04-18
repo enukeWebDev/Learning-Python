@@ -1,4 +1,4 @@
-def iq_quiz():
+def react_quiz():
 
     print("Q: Calculate the area of a △ with base of 10 meters and height of 5 meters.")
     answer = input("A: ")

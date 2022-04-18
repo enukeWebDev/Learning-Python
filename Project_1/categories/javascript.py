@@ -51,12 +51,21 @@ def js_quiz():
     print("a. Syntax Error\t b. 'I am a dog'\t c. ReferenceError\t d. Nothing happens\n")
     answer = input("A: ").lower()
  
-    if answer != "c":
+    if answer != "d":
       print ("Your answer is ❌ ! \n")
     
     else:
       print ("Your answer is ✅ ! \n")
 
-      # \n\t else { \n\t\t  print("NO"); \n\t}
 
-      #  \n\tif(found) {\n\t\tprint("YES"); \n\t}  ")
+    print("Q5: What will be the output of the following code snippet? \
+              \n\tfunction sum(a, b) {\n\t\treturn a + b;\n\t}\n\n\tsum(1, '2');\n")
+
+    print("a. 12\t b. Nothing\t c. SyntaxError\t d. 12\n")
+    answer = input("A: ").lower()
+ 
+    if answer != "b":
+      print ("Your answer is ❌ ! \n")
+    
+    else:
+      print ("Your answer is ✅ ! \n")

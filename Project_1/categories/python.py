@@ -1,4 +1,4 @@
-def movie_quiz():
+def python_quiz():
     print("Q: How much profit Titanic movie made in the worldwide box office? ")
     answer = input("A: $")
 
