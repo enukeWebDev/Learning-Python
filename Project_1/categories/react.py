@@ -1,20 +1,23 @@
+from counter import *
+
 def react_quiz():
 
+    correctAns = 0
+    wrongAns = 0
+    
     print("Q1: What are the 2 ways to pass data to React components? \n")
 
     answer = input("A: ")
-    correctAns = 0
-    wrongAns = 0
+   
 
     if answer.lower() == "props and context api" or "context api and props":
       print ("Your answer is ✅ ! \n")
-      correctAns = correctAns + 1
-      print(correctAns)
+      correctAns += 1
     
     else:
       print ("Your answer is ❌ ! \n")
-      wrongAns = wrongAns + 1
-      print(wrongAns)
+      wrongAns += 1
+      
     
     print("Q2: What is JSX? \n")
 
@@ -22,13 +25,11 @@ def react_quiz():
 
     if answer.lower() != "javascript xml":
       print ("Your answer is ❌ ! \n")
-      wrongAns = wrongAns + 1
-      print(wrongAns)
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
-      correctAns = correctAns + 1
-      print(correctAns)
+      correctAns += 1
 
     
     print("Q3: Name 2 types of React components? \n")
@@ -37,11 +38,11 @@ def react_quiz():
 
     if answer.lower() == "function and class" or "class and function": 
       print ("Your answer is ✅ ! \n")
-      correctAns = correctAns + 1
-      print(correctAns)
+      correctAns += 1
     
     else:
       print ("Your answer is ❌ ! \n")
-      wrongAns = wrongAns + 1
-      print(wrongAns)
+      wrongAns += 1
 
+    
+    

@@ -1,4 +1,9 @@
+from counter import *
+
 def python_quiz():
+
+    correctAns = 0
+    wrongAns = 0
   
     print("Q1: Which data types allow slicing? \n")
 
@@ -7,10 +12,11 @@ def python_quiz():
 
     if answer != "d":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
-
+      correctAns += 1
     
     print("Q2: What will be the output of the following code? \
       \n\n\tinput_dictionary = {\n\t\t'X': 1994, \n\t\t'Y': 1110, \n\t\t'X': 1094 \
@@ -21,9 +27,11 @@ def python_quiz():
 
     if answer != "c":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
 
 
     print("\nQ3: What will be the output of the following code? \
@@ -34,9 +42,11 @@ def python_quiz():
 
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
       
     
     print("\nQ4: What will be the output of the following code? \
@@ -48,9 +58,11 @@ def python_quiz():
 
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
 
 
     print("\nQ5: What will be the output of the following code? \
@@ -62,6 +74,17 @@ def python_quiz():
 
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
+    
+    # print(wrongAns)
+    # print(correctAns)
+    
+    # finalResult = str(float((correctAns / (correctAns + wrongAns)) * 100))
+    # print("Your Final Result: " + finalResult + "%")
+
+    print(counter(correctAns, wrongAns))
+    

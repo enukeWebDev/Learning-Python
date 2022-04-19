@@ -1,5 +1,6 @@
 from category import *
 from animate import *
+from counter import * 
 
 def main():
 
@@ -16,6 +17,7 @@ def main():
     else:
       chooseCategory()
 
+    print(counter())
 
 if __name__ == "__main__":
     main()

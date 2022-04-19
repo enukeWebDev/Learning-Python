@@ -1,4 +1,9 @@
+from counter import *
+
 def js_quiz():
+
+    correctAns = 0
+    wrongAns = 0
 
     print("\nQ1: What will be the output of the following code snippet? \
               \n\tlet sum = 0; \n\tconst a = [1 ,2 3]; \n\ta.forEach(getSum); \
@@ -8,10 +13,11 @@ def js_quiz():
 
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
-
+      correctAns += 1
   
     print("Q2: What will be the output of the following code snippet? \
               \n\ta = [1, 2, 3, 4, 5]; \n\t print(a.slice(2,4));\n")
@@ -20,9 +26,11 @@ def js_quiz():
  
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
   
     print ("\nQ3: What will be the output of the following code snippet? \
         \n\tlet a = [1, 2, 3, 4, 5, 6]; \n\tlet left = 0, right = 5; \
@@ -39,9 +47,11 @@ def js_quiz():
  
     if answer != "a":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
     
 
     print("Q4: What happens when we run this code? \
@@ -53,9 +63,11 @@ def js_quiz():
  
     if answer != "d":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
 
 
     print("Q5: What will be the output of the following code snippet? \
@@ -66,6 +78,11 @@ def js_quiz():
  
     if answer != "b":
       print ("Your answer is ❌ ! \n")
+      wrongAns += 1
     
     else:
       print ("Your answer is ✅ ! \n")
+      correctAns += 1
+
+    
+    print(counter(correctAns, wrongAns))
