@@ -80,11 +80,7 @@ def python_quiz():
       print ("Your answer is ✅ ! \n")
       correctAns += 1
     
-    # print(wrongAns)
-    # print(correctAns)
     
-    # finalResult = str(float((correctAns / (correctAns + wrongAns)) * 100))
-    # print("Your Final Result: " + finalResult + "%")
-
-    print(counter(correctAns, wrongAns))
+    print((counter(correctAns, wrongAns)))
+    
     

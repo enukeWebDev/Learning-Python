@@ -44,5 +44,4 @@ def react_quiz():
       print ("Your answer is ❌ ! \n")
       wrongAns += 1
 
-    
-    
+    print((counter(correctAns, wrongAns)))
