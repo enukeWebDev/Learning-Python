@@ -13,7 +13,7 @@ The main focus of these project are:
 - explore some built-in libraries of Python
 - explore on writing a unit test
 
-1. Quiz App
+1. Quiz App (short video clip demo below)
 
 - https://imgflip.com/gif/6d46lj
 - https://imgflip.com/gif/6d46s2
