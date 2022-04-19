@@ -1,10 +1,34 @@
 def react_quiz():
 
-    print("Q: Calculate the area of a △ with base of 10 meters and height of 5 meters.")
+    print("Q1: What are the 2 ways to pass data to React components? \n")
+
     answer = input("A: ")
 
-    if answer != "25":
-      print ("Your answer is ❌ !")
+    if answer.lower() == "props and context api" or "context api and props":
+      print ("Your answer is ✅ ! \n")
     
     else:
-      print ("Your answer is ✅ !")
+      print ("Your answer is ❌ ! \n")
+
+    
+    print("Q2: What is JSX? \n")
+
+    answer = input("A: ")
+
+    if answer.lower() != "javascript xml":
+      print ("Your answer is ❌ ! \n")
+    
+    else:
+      print ("Your answer is ✅ ! \n")
+
+    
+    print("Q3: Name 2 types of React components? \n")
+
+    answer = input("A: ")
+
+    if answer.lower() == "function and class" or "class and function": 
+      print ("Your answer is ✅ ! \n")
+    
+    else:
+      print ("Your answer is ❌ ! \n")
+
