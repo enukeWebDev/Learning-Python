@@ -13,18 +13,20 @@ The main focus of these project are:
 - explore some built-in libraries of Python
 - explore on writing a unit test
 
-1. Quiz App - currently working on this
+1. Quiz App
 
-- User is prompt to enter his/her name at the start of the app
-- A welcome message with the name of the user will pop out
-- A question will propmt user
+- https://imgflip.com/gif/6d45nd
+
+* User is prompt to enter his/her name at the start of the app
+* A welcome message with the name of the user will pop out
+* A question will propmt user
   - yes will continue and prompt user to choose a category
   - no will exit the app
-- There will be a few options for category to choose (still on going)
-- After choosing the category
+* There will be a few options for category to choose (still on going)
+* After choosing the category
   - A question will pop out
   - If answer is correct - a message will show
   - If answer is wrong - a message will show
-- Will add more categories & questions for each catergories
-- Will implement a counter to count correct answers and wrong answers
-- Output the final result (%)
+* Will add more categories & questions for each catergories
+* Will implement a counter to count correct answers and wrong answers
+* Output the final result (%)
