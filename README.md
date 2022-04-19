@@ -15,7 +15,9 @@ The main focus of these project are:
 
 1. Quiz App
 
-- https://imgflip.com/gif/6d45nd
+- https://imgflip.com/gif/6d46lj
+- https://imgflip.com/gif/6d46s2
+- https://imgflip.com/gif/6d46vi
 
 * User is prompt to enter his/her name at the start of the app
 * A welcome message with the name of the user will pop out
