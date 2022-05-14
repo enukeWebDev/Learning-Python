@@ -36,6 +36,7 @@ The main focus of these project are:
 2. Number Guessing Game
 
 - This is one of my homework in CS50P (Harvard U)
+- User is prompt for his/her name
 - User is propmt for a positive integer (Level)
   - The Level serves as the upper limit of the range to guess the number from
   - The lower limit will always be 1
@@ -46,4 +47,5 @@ The main focus of these project are:
   - if lower than the number - message will show "Too small!"
   - if higher than the number - message will show "Too large!"
   - if number is the same - message will show "Just right!"
+  - message shows to reveal the random number
 - Program will exit once the guess is correct

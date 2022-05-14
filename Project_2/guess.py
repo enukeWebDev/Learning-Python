@@ -18,3 +18,5 @@ def guess_number():
     generate_number = randint(1, user_input)
     check_number(generate_number)
 
+    print(f"You guessed it correctly! The number is {generate_number}!")
+
