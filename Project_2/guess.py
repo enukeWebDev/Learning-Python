@@ -4,7 +4,6 @@
 
 from random import randint
 from check import check_number
-from generate import generate_number
 
 def guess_number():
     while True:
@@ -16,8 +15,6 @@ def guess_number():
         except:
             continue
 
-    # generate_number = randint(1, user_input)
-    # check_number(generate_number)
-
-    generate_number(user_input)
+    generate_number = randint(1, user_input)
     check_number(generate_number)
+

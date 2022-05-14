@@ -32,3 +32,14 @@ The main focus of these project are:
 * Will add more categories & questions for each catergories
 * Will implement a counter to count correct answers and wrong answers
 * Output the final result (%)
+
+2. Number Guessing Game
+
+- This is one of my homework in CS50P (Harvard U)
+- User is propmt for a positive integer (Level)
+  - The Level serves as the upper limit of the range to guess the number from
+  - The lower limit will always be 1
+  - If user enters a negative number - user will be prompt again to enter an integer(Level)
+  - If users enters a non integer (not a number) - user will be prompt again to enter an integer(Level)
+- User will enter his/her guess
+  -

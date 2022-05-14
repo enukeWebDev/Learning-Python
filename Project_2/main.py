@@ -1,4 +1,3 @@
-from random import randint
 from guess import guess_number
 
 def main():
