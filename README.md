@@ -41,5 +41,9 @@ The main focus of these project are:
   - The lower limit will always be 1
   - If user enters a negative number - user will be prompt again to enter an integer(Level)
   - If users enters a non integer (not a number) - user will be prompt again to enter an integer(Level)
+- The program will generate a random number based on the range
 - User will enter his/her guess
-  -
+  - if lower than the number - message will show "Too small!"
+  - if higher than the number - message will show "Too large!"
+  - if number is the same - message will show "Just right!"
+- Program will exit once the guess is correct
