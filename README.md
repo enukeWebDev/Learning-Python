@@ -52,6 +52,10 @@ The main focus of these project are:
 
 3. Little Professor Game
 
+!["Add"](https://github.com/enukeWebDev/Learning-Python/blob/main/Project_3/image/add.png?raw=true)
+
+!["Multiply"](https://github.com/enukeWebDev/Learning-Python/blob/main/Project_3/image/multiply.png?raw=true)
+
 - This is one of my homework in CS50P (Harvard U) that I expanded to imitate the actual Little Professor game. The assignment only covers the addition. This covers addition, subtraction, multiplication and division.
 - User is prompt for level
   - Level 1 - generates number from 0 - 9
