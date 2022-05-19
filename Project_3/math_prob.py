@@ -3,6 +3,7 @@ from generate_integer import generate_integer
 from operation import *
 from subtract import subtract
 from multiply import multiply_number
+from divide import divide_number
 
 # Generates 10 math problems based on the value of the user input and the operation.
 def generate_math_problems(user_input):
@@ -38,6 +39,17 @@ def generate_math_problems(user_input):
             if check_answer:
                 user_score += 1
             math_problems_count += 1
+        
+        return user_score
+
+    else:
+        while math_problems_count <= 10:
+            x, y = generate_integer(user_input)
+            if y >= 1:
+                check_answer = divide_number(x, y)
+                if check_answer:
+                    user_score += 1
+                math_problems_count += 1
         
         return user_score
 
