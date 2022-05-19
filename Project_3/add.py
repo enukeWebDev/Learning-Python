@@ -1,12 +1,4 @@
-# from operation import *
-
-def solve_math_problems(x, y):
-    
-    
-    # attempts = 1
-    # oper = get_operation()
-    # print(oper)
-    # # if oper == "+":
+def add_number(x, y):
       
     # Keep track of the attempts - only allowed 3 attempts.
     attempts = 1
@@ -14,8 +6,7 @@ def solve_math_problems(x, y):
         try:
             user_answer = int(input(f"{x} + {y} = "))
             if user_answer == (x + y):
-                return True
-                  
+                return True    
             else:
                 attempts += 1
                 print("EEE")

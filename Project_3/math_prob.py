@@ -1,7 +1,7 @@
-from solution import solve_math_problems
 from generate_integer import generate_integer
-from operation import *
-from subtract import subtract
+from operation import get_operation
+from add import add_number
+from subtract import subtract_number
 from multiply import multiply_number
 from divide import divide_number
 
@@ -15,7 +15,7 @@ def generate_math_problems(user_input):
     if x == "+":
         while math_problems_count <= 10:
             x, y = generate_integer(user_input)
-            check_answer = solve_math_problems(x, y)
+            check_answer = add_number(x, y)
             if check_answer:
                 user_score += 1
             math_problems_count += 1
@@ -25,7 +25,7 @@ def generate_math_problems(user_input):
     elif x == "-":
         while math_problems_count <= 10:
             x, y = generate_integer(user_input)
-            check_answer = subtract(x, y)
+            check_answer = subtract_number(x, y)
             if check_answer:
                 user_score += 1
             math_problems_count += 1
@@ -52,22 +52,3 @@ def generate_math_problems(user_input):
                 math_problems_count += 1
         
         return user_score
-
- # x = get_operation()
-    # if x == "+":
-    # # Keep track of the math problems - only 10 math problems.
-    #     math_problems_count = 1
-
-    #     # Keep track of the score of the user - 1 point every correct answer.
-    #     user_score = 0
-
-    #     while math_problems_count <= 10:
-    #         x, y = generate_integer(user_input)
-    #         check_answer = solve_math_problems(x, y)
-
-    #         if check_answer:
-    #             user_score += 1
-            
-    #         math_problems_count += 1
-        
-    #     return user_score

@@ -1,11 +1,5 @@
-def subtract(x, y):
-    
-    
-    # attempts = 1
-    # oper = get_operation()
-    # print(oper)
-    # # if oper == "+":
-      
+def subtract_number(x, y):
+
     # Keep track of the attempts - only allowed 3 attempts.
     attempts = 1
     while attempts <= 3:
