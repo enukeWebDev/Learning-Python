@@ -1,9 +1,9 @@
 from generate_integer import generate_integer
-from operation import get_operation
-from add import add_number
-from subtract import subtract_number
-from multiply import multiply_number
-from divide import divide_number
+from operations.operation import get_operation
+from operations.add import add_number
+from operations.subtract import subtract_number
+from operations.multiply import multiply_number
+from operations.divide import divide_number
 
 # Generates 10 math problems based on the value of the user input and the operation.
 def generate_math_problems(user_input):
