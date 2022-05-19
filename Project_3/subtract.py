@@ -1,6 +1,4 @@
-# from operation import *
-
-def solve_math_problems(x, y):
+def subtract(x, y):
     
     
     # attempts = 1
@@ -12,8 +10,8 @@ def solve_math_problems(x, y):
     attempts = 1
     while attempts <= 3:
         try:
-            user_answer = int(input(f"{x} + {y} = "))
-            if user_answer == (x + y):
+            user_answer = int(input(f"{x} - {y} = "))
+            if user_answer == (x - y):
                 return True
                   
             else:
@@ -24,5 +22,4 @@ def solve_math_problems(x, y):
             attempts += 1
             print("EEE")
 
-    print(f"{x} + {y} = {x + y}")
-
+    print(f"{x} - {y} = {x - y}")
